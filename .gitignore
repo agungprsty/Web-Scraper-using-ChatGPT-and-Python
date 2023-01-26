@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.envrc
+venv/
+
+# IDE and editor
+.vscode/
+
+# Data
+/data/images/*
+!/data/images/.gitkeep
+/data/produk/*
+!/data/produk/.gitkeep

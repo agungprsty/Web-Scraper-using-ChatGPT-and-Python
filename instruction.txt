@@ -1,0 +1,22 @@
+Tolong buatkan saya web scraping dengan bahasa python menggunakan library beautifulsoap untuk scraping produk dengan detail nama, deskripsi, keunggulan, spesifikasi, dan penggunaan  di website https://saprotan-utama.com/product-category/semua-produk/page/1/, 
+
+Pilih semua tag div dengan class="product-list", kemudian pilih tag footer klik tag a
+
+Pilih div dengan class="col-lg-5", kemudian coba pilih tag img, lalu download gambar tersebut. jika gambar tidak ada kosongkan hasilnya
+
+Pilih div dengan class="col-lg-7",
+coba pilih tag h1 untuk mengambil nama produk,
+coba pilih tag p untuk mengambil deskripsi produk,
+
+Pilih div dengan id="keunggulan-tab",
+coba pilih semua tag p untuk mengambil keunggulan produk.
+
+Pilih div dengan id="spesifikasi-tab",
+coba pilih semua tag p untuk mengambil spesifikasi produk.
+
+Pilih div dengan id="penggunaan-tab",
+coba pilih semua tag p untuk mengambil penggunaan produk.
+
+Jika sudah, ulangi langkah tersebut hingga page ke 12. 
+
+Kemudian taruh hasil scrapingnya ke dalam file json, dengan format nama berdasarkan page tersebut. Misal data-{page=1}.json
